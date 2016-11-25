@@ -1,0 +1,39 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+ .region-footer-third{
+	margin-top: 137px;
+}
+.region-branding{
+	margin-top: 11px;	
+}
+.region-sidebar-first{
+	display: initial;
+}
+.google_map_field_display {
+    height: 310px;
+    width: 430px;
+}
+.view-id-reference .views-field-field-opis .field-content {
+    width: initial;
+}
+.mobile-cart {
+    margin: 41px 0 0 20px;
+}
+.block-4{
+	text-align: center;
+	margin-left: 0;
+}
+.navigation .main-menu li {
+    padding-left: 52px;
+}
+.mobile-cart {
+    margin-left:40px;
+}
+.zone-branding-wrapper{
+	padding-bottom: 0;	
+}
+.webmaster-menu{
+	display: inherit;	
+}

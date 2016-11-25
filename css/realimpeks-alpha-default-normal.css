@@ -1,0 +1,47 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+.region-menu-inner .navigation ul .last a {
+    padding: 22px 3px;
+}
+.region-menu-inner .navigation ul li{
+    padding: 0;
+}
+.google_map_field_display {
+    height: 377px;
+    width: 580px;
+}
+.region-menu{
+	background: url('/img/menu_bottom.png') no-repeat bottom;	
+}
+.mobile-cart {
+    margin: 0;
+}
+.zone-branding-wrapper{
+	background: url('/img/header-bg.jpg') no-repeat top center;
+	height: 133px;	
+}
+.zone-footer-wrapper{
+	background: url('/img/footer_bg1.png') no-repeat center;
+	height: 351px;	
+}
+ .region-footer-third{
+	margin-top: 270px;
+}
+.region-footer-first{
+	margin-top: 175px;
+}
+.region-footer-second{
+	margin-top: 202px;
+}
+.region-menu-inner .navigation ul li a {
+	padding: 22px 4px;
+	margin: 8px 0 9px 0;
+    background: none;
+	font-size: 15px;
+    display: block;
+    width: inherit;
+}
+.navigation .main-menu li {
+    display: inline-block;
+}

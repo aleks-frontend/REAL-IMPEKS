@@ -1,0 +1,399 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,300italic,300&subset=latin,latin-ext);
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+	font-size: 12px;
+	color: #888888;
+	font-family: 'Open Sans', sans-serif;	
+}
+.region-sidebar-first{
+	display: none;
+}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+}
+.zone-content {
+    margin-top: 20px;
+}
+.clear-marg-left .views-row{
+	margin: 0 0 5px 13px;
+}
+
+.clear-marg-left .views-field-body, .clear-marg-left .views-field-title {
+    padding-right: 24px;
+}
+.clear-marg-left .views-field-title{
+	margin: 10px 0 15px 0;	
+}
+.clear-marg-left .views-field-created{
+	margin-top: 35px;	
+}
+.clear-marg-left .views-field-title a {
+    text-decoration: none;
+	color: #222222;
+	font-size: 13px;
+}
+.view-ljudi .views-field-title a{
+	font-size: 16px;
+	color: #555555;	
+}
+.block-ljudi-block{
+	margin-top: 50px;	
+}
+.region-footer-third{
+	text-align: right;	
+}
+.region-footer-third a, .region-menu a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.region-footer-third a.active, .region-menu a.active{
+	color: #FFFFFF;
+}
+.region-footer-third ul li {
+    list-style-image: none;
+    list-style-type: none;
+	display: inline;
+	margin:0;
+	padding:0 2px 0 0;
+	font-size: 11px;
+	border-right: 1px solid #9DB6D8;
+}
+.region-footer-third ul li.last {
+	border: none;
+}
+.region-footer-third ul{
+    float: right;
+}
+/*Input and Label formatting*/
+.webform-component label {
+    display: inline-block;
+    width: 57px;
+}
+.zone-footer-wrapper{
+	background-color: #2D6FB2;	
+}
+.zone-branding-wrapper{
+	background-color: #2D6FB2;
+	padding-bottom: 15px;
+}
+.zone-footer, .blue {
+    color: #FFFF26;
+}
+.region-footer-first a, .blue a {
+    color: #FFFF26;
+	text-decoration: none;
+}
+.view-ljudi .views-field-field-szakma {
+    width: 88px;
+}
+.view-ljudi .views-field-field-szakma .field-content {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    font-size: 10px;
+    height: 17px;
+    text-align: center;
+}
+/*Menu*/
+.region-menu-inner .navigation ul li a {
+    
+}
+.region-menu-inner .navigation ul li a:hover{
+    background-color: #4488C7;
+}
+.block-4{
+	color: white;
+	font-size: 10px;
+	margin-left: 40px;
+}
+.block-novi-vesti-block{
+	margin-bottom: 45px;	
+}
+.zone-footer{
+	margin-top: 20px;
+}
+.views-field-view-node .field-content a{
+    background-image: url("/img/more.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 13px;
+    width: 33px;
+	text-indent: 65px;
+	overflow: hidden;
+	margin-right: 35px;
+	float: right;
+}
+.views-field-view-node .field-content a:hover {
+	background-image: url("/img/more1.png");	
+}
+.block-title, #page-title{
+	color: #AAAAAA;
+	font-size: 16px;
+	font-style: italic;
+	border-bottom: 1px dotted #DBDBEA;
+	padding-bottom: 10px;	
+}
+
+.view-delatnosti .views-field-body, .view-o-nama .views-field-body, .view-nas-tim .views-field-body {
+    margin: 0 0 0 24px;
+	font-size: 13px;
+}
+.view-delatnosti .views-field-field-image, .view-o-nama .views-field-field-image, .view-nas-tim .views-field-field-image {
+    margin: 0;
+}
+ul{
+	list-style-image: url('/img/li.png');	
+}
+.block-webform{
+	margin-bottom: 90px;	
+}
+.block-menu-info-menu{
+	margin-bottom: 90px;	
+}
+.block-webform .block-title {
+    background: url('/img/papir_repcsi_atlatszo.png') no-repeat right 10px center #FADE7F;
+	color: white;
+	padding: 9px 0 9px 7px;
+	text-transform: uppercase;
+}
+.zone-footer .block-title, .blue .block-title{
+	font-style: normal;
+	color: #FFFF26;
+	border: none;
+}
+.block-menu-kategorija{
+	margin-bottom: 70px;	
+}
+.block-menu-kategorija .menu li {
+    font-size: 14px;
+    list-style-image: none;
+    list-style-type: none;
+    margin-bottom: 1px;
+    padding: 0;
+}
+.block-menu-kategorija .menu li a {
+    background-color: #2F70B3;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.block-menu-kategorija .menu li ul li a {
+    background-color: #18589E;
+    
+}
+
+
+.block-menu-kategorija .menu li a:hover {
+    background-color: #2693FF;
+}
+
+.block-menu-kategorija .menu li .active-trail {
+    background-color: #2693FF;
+}
+
+.node-proizvodi .field-type-image, .node-vesti .field-type-image {
+    border: 1px solid #DBDBEA;
+    float: left;
+    margin: 0 23px 10px 0;
+    padding: 55px;
+}
+.view-reference .views-row{
+	margin: 0;	
+	padding-left: 13px;
+	margin-bottom: 21px;
+}
+.view-reference .views-field-title{
+	clear: both;
+	margin: 0 10px 15px 0;
+	height: 50px;
+	overflow: hidden;
+}
+.view-reference .views-field-title a,.view-novosti .views-field-title .field-content a{
+    color: #545454;
+    font-size: 16px;
+    text-decoration: none;
+}
+.view-reference .views-field-field-opis .opis {
+    background-color: #006DD9;
+    color: #FFFFFF;
+    padding: 4px;
+	float: right;
+	margin: 4px 27px 5px 0;
+	height: 22px;
+	overflow: hidden;
+}
+.view-reference .views-field-field-opis .opis-image img {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+}
+.view-reference .views-field-field-opis .opis .opis-content {
+    line-height: 1;
+    padding: 5px 0;
+}
+.view-novosti .views-row .views-field,.view-novosti .views-field-view-node .field-content a {
+    margin: 0;
+}
+.view-novosti .views-row{
+	margin-bottom: 65px;
+}
+.view-novosti .views-row .views-field-created, .view-novosti .views-row .views-field-view-node{
+	margin-top: 20px;	
+}
+.view-novosti .views-row .views-field-created{
+	margin-left: 31px;	
+}
+.view-novosti .views-row .views-field-title {
+    margin-bottom: 24px;
+}
+.block-2 .content p strong{
+	color: white;	
+}
+.field-name-body .blue{
+	margin: 0 0 30px 0;
+	background-color: #2F6FB3;
+}
+.google_map_field_display {
+	margin-top: 60px;
+}
+.block-webform .form-submit, .node-webform .form-submit {
+	background: url('/img/send_button.png') no-repeat;
+    height: 45px;
+    width: 175px;
+	border: none;
+	text-indent: 250px;
+	overflow: hidden;
+}
+.block-webform .form-submit:hover, .node-webform .form-submit:hover{
+	background: url('/img/send_button.png') no-repeat;	
+}
+.node-reference .field-items .field-item {
+    display: inline-block;
+}
+.node-reference .field-items .field-item a {
+    display: block;
+    margin: 0 2px 3px 0;
+}
+/*Nas tim link front page*/
+.block-5 a{
+	float: right;
+	font-size: 14px;
+	margin-bottom: 25px;	
+}
+li {
+    padding-bottom: 8px;
+}
+.node-webform .block-1 h2, .node-webform .block-2 h2{
+	padding-top: 13px;	
+}
+.node-webform .field-name-body {
+    margin-bottom: 50px;
+}
+.view-id-proizvodi_brand .views-row {
+    display: inline-block;
+    margin: 0 15px 15px;
+	opacity: 0.5;
+}
+.view-id-proizvodi_brand .views-row:hover {
+	opacity: 1;
+}
+.block-menu-info-menu .menu li{
+	list-style-type: none;
+	list-style-image: none;
+	text-indent: -120px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+.block-menu-info-menu .block-title{
+	display:none;
+}
+.block-menu-info-menu li a{
+	display:block;
+	height: 102px;
+}
+.first-menu{
+	background: url('/img/menu1.png') no-repeat;
+}
+.second-menu{
+	background: url('/img/menu2.png') no-repeat;
+}
+.third-menu{
+	background: url('/img/menu3.png') no-repeat;
+}
+.fourth-menu{
+	background: url('/img/menu4.png') no-repeat;
+}
+.node-ljudi .field-name-field-image {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.node-ljudi .field-name-field-szakma {
+    clear: both;
+}
+.node-ljudi .field-name-field-szakma .field-label {
+    float: left;
+    margin-right: 7px;
+}
+/*Admin menu*/
+.webmaster-menu ul.menu li .nolink {
+    line-height: 22px;
+    padding: 4px 6px 4px 7px;
+}
+.webmaster-menu ul.menu li .nolink:hover {
+	background-color: #996666;
+	border-radius: 11px;	
+}
+.webmaster-menu ul.menu .nolink {
+    color: #FFFFFF;
+    display: block;
+    margin: 0;
+    text-decoration: none;
+}
+.view-id-reference .views-field-field-opis .field-content {
+    width: 260px;
+}
+.mobile-cart {
+    margin-left: 72px;
+}
+.mobile-cart .menu_head a {
+    background-color: #33558D;
+    display: block;
+    font-size: 15px;
+    padding: 5px 37px;
+}
+.navigation .main-menu li {
+    padding-left: 83px;
+}
+.region-menu-inner .navigation ul li a {
+    background-color: #2F63A2;
+    display: block;
+    font-size: 14px;
+    padding: 3px 5px;
+    width: 78px;
+}
+.webmaster-menu{
+	display: none;	
+}
+.logo-img{
+	float: none;
+	margin-right: 0;
+	text-align:center;	
+}
+.view-proizvodi .views-row{
+	height: 500px;	
+}
+.view-novi-vesti .views-field-body{
+	height: 245px;
+}
+.view-najnovi-proizvodi .views-field-body,.view-proizvodi .views-field-body,.view-taxonomy-term .views-field-body{
+	height: 200px;	
+}

@@ -1,0 +1,23 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+.view-delatnosti .views-field-body, .view-o-nama .views-field-body, .view-nas-tim .views-field-body {
+	border-left: 1px solid #DBDBEA;
+	padding-left: 45px;
+}
+.view-ljudi .views-field-field-szakma { 
+    left: 117px;
+    position: relative;
+    top: -12px;
+}
+.region-menu-inner .navigation ul li{
+    padding: 0 0.5em;
+}
+.region-menu-inner .navigation ul .last a {
+    padding: 22px 5px;
+}
+.region-menu-inner .navigation ul li a {
+    padding: 22px 7px;
+	margin: 8px 0 9px 0;
+}
+.google_map_field_display {
+    width: 731px;
+}
