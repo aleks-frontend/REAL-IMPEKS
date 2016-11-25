@@ -397,3 +397,28 @@ li {
 .view-najnovi-proizvodi .views-field-body,.view-proizvodi .views-field-body,.view-taxonomy-term .views-field-body{
 	height: 200px;	
 }
+
+/* Sticky Footer fix - 25.11.2016. */
+
+html, body {
+	height: 100%;
+}
+
+div.page {
+	position: relative;
+	min-height: 100%;
+}
+
+section#section-content {
+	position: relative;
+	padding-bottom: 351px;
+	z-index: 99;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 98;
+}
