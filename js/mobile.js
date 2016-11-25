@@ -27,8 +27,8 @@ jQuery(document).ready(function(){
 
  
  //<li class="menu_head"><a href="#">Menu</a></li>
- vsmenucart.append('<div class="menu_head"><a href="#">'+ menu_title +'</a></div>');
- vsmenucart.find('.menu_head').append("");
+ // vsmenucart.append('<div class="menu_head"><a href="#">'+ menu_title +'</a></div>');
+ // vsmenucart.find('.menu_head').append("");
  vsmenucart.find('.menu_head').css('display', 'none');
 
  if(jQuery(window).width() < scr_width){
